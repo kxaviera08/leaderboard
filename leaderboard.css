@@ -1,0 +1,48 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4vw;
+}
+
+.first, .second, .third, .fourth , .fifth, .sixth, .seventh, .eigth, .ninth, .tenth, .eleventh, .twelveth, .thirteenth, .fourteenth, .fifteenth, .sixteenth, .seventeenth, .eighteenth, .nineteenth, .twentyth, .twentyFirst, .twentySecond, .twentyThird, .twentyFourth, .twentyFifth, .twentyEighth{
+  display: flex;
+  align-items: center;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10vw;
+  padding: 1vw 2vw;
+  margin: 1vw;
+}
+
+.P1A-rank, .P1B-rank, .P1C-rank, .P2A-rank, .P2B-rank, .P2C-rank, .P3A-rank, .P3B-rank, .P3C-rank, .P4A-rank, .P4B-rank, .P5A-rank, .P5B-rank, .P6A-rank, .P6B-rank, .S1A-rank, .S1B-rank, .S2A-rank, .S2B-rank, .S2C-rank, .S3A-rank, .S3B-rank, .S4A-rank, .S4B-rank, .JC1A-rank, .JC1B-rank, .JC2A-rank, .JC2B-rank {
+  border-radius: 50%;
+  border-style: none;
+
+  box-shadow: 0px 0px 10px rgba(130, 188, 255, 0.5);
+  background-color: rgb(217, 236, 242);
+
+  height: 4vw;
+  width: 4vw;
+
+  font-size: 2vw;
+}
+
+
+.places h1 {
+  flex: 1;
+
+  padding: 1.5vw;
+  margin: 0vw;
+  font-size: 2vw;
+}
+
+.places p {
+  flex: 4;
+  text-align: center;
+
+  background-color: aliceblue;
+  padding: 1.5vw;
+  border-radius: 5vw;
+  margin: 0vw 2vw;
+}
